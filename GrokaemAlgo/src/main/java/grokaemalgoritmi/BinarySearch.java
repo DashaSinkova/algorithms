@@ -1,4 +1,4 @@
-package GrokaemAlgoritmi;
+package grokaemalgoritmi;
 
 public class BinarySearch {
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class BinarySearch {
            System.out.println("Значение не найдено");
        }
     }
-    public static int search(int[]mas, int value ) {
+    public static int search(int[]mas, int value) {
         int low = 0;
         int high = mas.length - 1;
         while (low <= high) {
