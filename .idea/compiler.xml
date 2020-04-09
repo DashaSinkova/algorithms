@@ -7,13 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="GrokaemAlgo" />
-        <module name="Patterns" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Algoritmi" target="1.8" />
       <module name="GrokaemAlgo" target="1.8" />
-      <module name="Patterns" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
