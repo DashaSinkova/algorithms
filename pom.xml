@@ -6,6 +6,8 @@
     <version>3.0</version>
     <modules>
         <module>GrokaemAlgo</module>
+        <module>Patterns</module>
+        <module>StepikJavaCourse</module>
     </modules>
     <name>Education</name>
 

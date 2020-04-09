@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Algoritmi.iml" filepath="$PROJECT_DIR$/Algoritmi.iml" />
       <module fileurl="file://$PROJECT_DIR$/GrokaemAlgo/GrokaemAlgo.iml" filepath="$PROJECT_DIR$/GrokaemAlgo/GrokaemAlgo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Patterns/Patterns.iml" filepath="$PROJECT_DIR$/Patterns/Patterns.iml" />
     </modules>
   </component>
 </project>
