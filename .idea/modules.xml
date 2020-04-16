@@ -4,9 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CleanCode/CleanCode.iml" filepath="$PROJECT_DIR$/CleanCode/CleanCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/GrokaemAlgo/GrokaemAlgo.iml" filepath="$PROJECT_DIR$/GrokaemAlgo/GrokaemAlgo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HeadFirstJava/HeadFirstJava.iml" filepath="$PROJECT_DIR$/HeadFirstJava/HeadFirstJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/Patterns/Patterns.iml" filepath="$PROJECT_DIR$/Patterns/Patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/StepikJavaCourse/StepikJavaCourse.iml" filepath="$PROJECT_DIR$/StepikJavaCourse/StepikJavaCourse.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/algorithms.iml" filepath="$PROJECT_DIR$/.idea/algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/studyFolder.iml" filepath="$PROJECT_DIR$/.idea/studyFolder.iml" />
     </modules>
   </component>
 </project>

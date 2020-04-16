@@ -9,6 +9,7 @@
         <module>Patterns</module>
         <module>StepikJavaCourse</module>
         <module>CleanCode</module>
+        <module>HeadFirstJava</module>
 
     </modules>
     <name>Education</name>

@@ -10,15 +10,17 @@
         <module name="GrokaemAlgo" />
         <module name="Patterns" />
         <module name="CleanCode" />
+        <module name="HeadFirstJava" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="algorithms" target="1.8" />
       <module name="Algoritmi" target="1.8" />
       <module name="CleanCode" target="1.8" />
       <module name="GrokaemAlgo" target="1.8" />
+      <module name="HeadFirstJava" target="1.8" />
       <module name="Patterns" target="1.8" />
       <module name="StepikJavaCourse" target="1.8" />
+      <module name="studyFolder" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
