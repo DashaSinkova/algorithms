@@ -8,6 +8,7 @@
         <module>GrokaemAlgo</module>
         <module>Patterns</module>
         <module>StepikJavaCourse</module>
+        <module>CleanCode</module>
 
     </modules>
     <name>Education</name>

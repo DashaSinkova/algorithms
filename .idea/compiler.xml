@@ -6,12 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="StepikJavaCourse" />
         <module name="GrokaemAlgo" />
+        <module name="Patterns" />
+        <module name="CleanCode" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="algorithms" target="1.8" />
       <module name="Algoritmi" target="1.8" />
+      <module name="CleanCode" target="1.8" />
       <module name="GrokaemAlgo" target="1.8" />
+      <module name="Patterns" target="1.8" />
+      <module name="StepikJavaCourse" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
