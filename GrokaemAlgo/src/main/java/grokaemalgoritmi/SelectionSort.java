@@ -1,3 +1,6 @@
+/**
+ * Сортировка методом выбора
+ */
 package grokaemalgoritmi;
 
 import java.util.Arrays;
