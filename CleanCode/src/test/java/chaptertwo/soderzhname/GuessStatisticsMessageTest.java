@@ -1,4 +1,4 @@
-package glava2.soderzhatelnieimena;
+package chaptertwo.soderzhname;
 import static org.hamcrest.core.Is.*;
 import org.junit.Test;
 import static org.junit.Assert.*;

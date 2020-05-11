@@ -1,4 +1,4 @@
-package glava2.soderzhatelnieimena;
+package chaptertwo.soderzhname;
 
 public class GuessStatisticsMessage {
     private String number;
@@ -12,7 +12,7 @@ public class GuessStatisticsMessage {
     private void createPluralDependentMessageParts(int count) {
         if (count == 0) {
             thereAreNoLetters();
-        } else if(count == 1) {
+        } else if (count == 1) {
             thereIsOneLetter();
         } else {
             thereAreManyLetters(count);

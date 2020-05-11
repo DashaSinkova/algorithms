@@ -1,4 +1,4 @@
-package chapter2.guessgame;
+package chaptertwo.guessgame;
 
 public class GuessGame {
     Player player1;
@@ -23,16 +23,14 @@ public class GuessGame {
             guessPlayer1 = player1.guessNumber;
             guessPlayer2 = player2.guessNumber;
             guessPlayer3 = player3.guessNumber;
-            System.out.println("Первый игрок думает, что " + guessPlayer1 + System.lineSeparator() +
-                    "Второй игрок думает, что " + guessPlayer2 + System.lineSeparator() +
-                    "Третий игрок думает, что " + guessPlayer3);
-            if(guessPlayer1 == targetNumber) {
+            System.out.println("Первый игрок думает, что " + guessPlayer1 + System.lineSeparator() + "Второй игрок думает, что " + guessPlayer2 + System.lineSeparator() + "Третий игрок думает, что " + guessPlayer3);
+            if (guessPlayer1 == targetNumber) {
                 isPlayer1Right = true;
             }
-            if(guessPlayer2 == targetNumber) {
+            if (guessPlayer2 == targetNumber) {
                 isPlayer2Right = true;
             }
-            if(guessPlayer3 == targetNumber) {
+            if (guessPlayer3 == targetNumber) {
                 isPlayer3Right = true;
             }
             if (isPlayer3Right || isPlayer2Right || isPlayer1Right) {
