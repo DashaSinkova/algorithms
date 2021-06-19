@@ -5,23 +5,23 @@ import java.util.Arrays;
 public class QuickSort {
     public static void main(String[] args) {
         int[] arr = {10, 3, -1, 1, 8, -5, -20, 20, 0};
-        sort(arr, 0, arr.length - 1);
-        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(quickSort(arr)));
     }
-
-    private static void sort(int[] array, int left, int right) {
-        if (left < right) {
-            int index = partition(array, left, right);
-            sort(array, index, right);
-            sort(array, left, index - 1);
+    public static int[] quickSort(int[] array) {
+        if (array.length < 2) {
+            return array;
         }
+        return sort(array, 0, array.length - 1);
     }
-
-    private static int partition(int[] array, int left, int right) {
+    private static int[] sort(int[] array, int left, int right) {
+        if (right <= left) {
+            return array;
+        }
         int i = left;
         int j = right;
-        int pivot = array[(left + right) / 2];
-        while (i <= j) {
+        int pivotIndex = (left + right) / 2;
+        int pivot = array[pivotIndex];
+        do {
             while (array[i] < pivot) {
                 i++;
             }
@@ -35,7 +35,10 @@ public class QuickSort {
                 i++;
                 j--;
             }
-        }
-        return i;
+        } while (i <= j);
+        sort(array, i, right);
+        sort(array, left, j);
+
+        return array;
     }
 }
